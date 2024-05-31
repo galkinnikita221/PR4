@@ -61,7 +61,7 @@
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:id="@+id/button"
-        android:onClick="onMessage"
+        android:onClick="onStep5"
         android:text="Продолжить"
         android:textAllCaps="false"
         android:background="@drawable/back"

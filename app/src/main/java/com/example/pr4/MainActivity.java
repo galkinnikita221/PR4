@@ -38,8 +38,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.step_4);
     }
 
-    public void onMessage(View view) {
-        Toast.makeText(this, "Спасибо за информацию! Передал в ФСБ.", Toast.LENGTH_SHORT).show();
+    public void onStep5(View view) {
+        setContentView(R.layout.step_5);
     }
 
+    public void onStep6(View view ) {
+        setContentView(R.layout.step_6);
+    }
+    public void onMessage(View view) {
+        Toast.makeText(this, "Передал данные куда надо.", Toast.LENGTH_SHORT).show();
+    }
 }
