@@ -44,6 +44,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:onClick="onStepSex"
         android:text="Продолжить"
         android:textAllCaps="false"
         android:background="@drawable/back"

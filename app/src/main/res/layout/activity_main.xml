@@ -45,6 +45,7 @@
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:text="Продолжить"
+        android:onClick="onStepAge"
         android:textAllCaps="false"
         android:background="@drawable/back"
         android:textColor="#0099FF"
